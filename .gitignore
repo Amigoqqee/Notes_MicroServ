@@ -21,9 +21,6 @@
 *.tmp
 *.swp
 
-# Shell scripts
-*.sh
-
 # Vendor
 /vendor/
 

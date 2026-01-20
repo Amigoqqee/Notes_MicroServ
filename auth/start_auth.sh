@@ -1,0 +1,16 @@
+#!/bin/bash
+
+ PORT=8101 \
+ HOST=localhost \
+ SERVER_TIMEOUT=10 \
+ DB_TIMEOUT=5 \
+ JWT_SECRET_KEY=secret_key \
+ JWT_ACCESS_TOKEN_EXPIRATION=24 \
+ JWT_REFRESH_TOKEN_EXPIRATION=168 \
+ POSTGRES_HOST=localhost \
+ POSTGRES_PORT=8100 \
+ POSTGRES_USER=postgres \
+ POSTGRES_PASSWORD=postgres \
+ POSTGRES_DB=postgres \
+ POSTGRES_USE_SSL=disable \
+ go run main.go
